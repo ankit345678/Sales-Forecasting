@@ -1,12 +1,26 @@
-# React + Vite
+📌 Overview
+This project applies Machine Learning to predict future sales based on historical sales data.  
+By identifying trends, seasonality, and patterns, it helps businesses make **data-driven decisions** to optimize inventory, production, and marketing strategies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 Objectives
+- Build a predictive model capable of forecasting sales with high accuracy.
+- Enable better business planning through data analysis.
+- Provide visual insights comparing historical and predicted data.
 
-Currently, two official plugins are available:
+✨ Features
+- 📊 Data Preprocessing – Handles missing values & outliers.
+- 🔍 Exploratory Data Analysis (EDA) – Graphical trends & correlation analysis.
+- 🤖 Model Implementation – Uses XGBoost for robust predictions.
+- 📈 Visualization– Plots actual vs predicted sales for clarity.
+- 🌐 Scalable Design – Can be adapted for multiple products or regions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  
+- 🛠️ Tech Stack
+- Language: Python
+- **Libraries**:
+  - `pandas`, `numpy` – Data manipulation
+  - `matplotlib`, `seaborn` – Visualization
+  - `scikit-learn` – Preprocessing & evaluation
+  - `xgboost` – Model training & prediction
+- Development Tools: Google Colab / Jupyter Notebook
+- Version Control: Git & GitHub
